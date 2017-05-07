@@ -226,8 +226,7 @@ Interface class.
   (:documentation "Base class of other containers. Acts as any container for bunch of closures (those vary depending on the concrete container) and root of the tree."))
 
 
-(defclass hamt-dictionary (fundamental-hamt-container
-                           cl-ds.dicts:dictionary)
+(defclass hamt-dictionary (cl-ds.dicts:dictionary)
   ())
 
 
